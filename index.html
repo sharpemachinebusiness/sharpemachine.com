@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SharpeMachine LLC</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+  </head>
+  <body id="top"><div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <div class="masthead-brand">
+            <img src="img/sharpe-logo-only.png" alt="Terra Advisory Logo" class="logo" width="30" height="30">
+            <h3 class="inline-logo">SharpeMachine</h3>
+          </div>
+          <nav class="nav nav-masthead">
+            <a class="nav-link nav-social" href="https://www.linkedin.com/company/terra-advisory-partners/" title="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" href="#" title="Medium"><i class="fab fa-medium" aria-hidden="true"></i></a>
+          </nav>
+        </div>
+      </div>      
+      <div class="inner cover">
+        <h1 class="cover-heading">Trend Following Regime Adjusted</h1>
+        <p class="lead cover-copy">Inspired by behavioural economists, and the idea of systematically biased investor decision making. We designed a strategy to derive active alpha from following trends in equity risk factors.<br></p>
+
+      
+
+        <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify" data-toggle="modal" data-target="#subscribeModal">Contact us</button></p>
+      </div>
+      <div class="mastfoot">
+        <div class="inner">
+          <p>&copy; SharpeMachine LLC 2024. All rights reserved.</p>
+        </div>
+      </div>
+      <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="subscribeModalLabel">Request more information:</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form id="contactForm" data-sb-form-api-token="132c68d9-f25e-4bee-a849-c9d7ebcf76ef">
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                    <label for="emailAddress">Email Address</label>
+                  <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                <label for="message">Message</label>
+            <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+        </div>
+        <div class="d-none" id="submitSuccessMessage">
+            <div class="text-center mb-3">
+                <div class="fw-bolder">Form submission successful!</div>
+            </div>
+        </div>
+        <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" id="submitButton" type="submit">Submit</button>
+        </div>
+    </form>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="scripts/jquery.slim.min.js?ver=1.2.0"></script>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
+  </body>
+</html>
